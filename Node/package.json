@@ -1,0 +1,32 @@
+{
+  "name": "grpc-node-example",
+  "version": "1.0.0",
+  "description": "gRPC NodeJS Demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizcarlosfaria/gRPC-Playground.git"
+  },
+  "keywords": [
+    "grpc",
+    "node",
+    "luizcarlosfaria"
+  ],
+  "author": "Luiz Carlos Faria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luizcarlosfaria/gRPC-Playground/issues"
+  },
+  "homepage": "https://github.com/luizcarlosfaria/gRPC-Playground#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "async": "^3.1.0",
+    "google-protobuf": "^3.8.0",
+    "grpc": "^1.21.1",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0"
+  }
+}

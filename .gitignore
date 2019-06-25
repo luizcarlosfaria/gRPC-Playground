@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
@@ -7,3 +7,4 @@
 /DotNet/gRPCClient/obj
 /DotNet/gRPCHost/obj
 /DotNet/gRPCHost/bin
+Node/node_modules/
