@@ -12,7 +12,7 @@ namespace gRPCHost
         {
             return Task.FromResult(new HelloReply
             {
-                Message = "Hello " + request.Name + " gRPC is Awesome!"
+                Message = "Hello " + request.Name + " i'm responding from .NET!"
             });
         }
         

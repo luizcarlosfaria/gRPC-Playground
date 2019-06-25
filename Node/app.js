@@ -17,7 +17,7 @@ var hello_proto = grpc.loadPackageDefinition(packageDefinition).Greet;
  * Implements the SayHello RPC method.
  */
 function sayHello(call, callback) {
-  callback(null, {message: 'Hello from NodeJS ' + call.request.name});
+  callback(null, {message: `Hello ${call.request.name} i'm responding from NodeJS!`});
 }
 
 /**

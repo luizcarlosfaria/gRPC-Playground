@@ -18,7 +18,7 @@ namespace gRPCClient
             var response = client.SayHello(new gRPCHost.HelloRequest() { Name = "gaGO.io" });
 
 
-            Console.WriteLine("Hello World gRPC! " + response.Message);
+            Console.WriteLine(response.Message);
 
 
             await channel.ShutdownAsync();
