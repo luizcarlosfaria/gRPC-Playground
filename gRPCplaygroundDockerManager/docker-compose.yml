@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  grpcplayground.agent:
+    image: ${DOCKER_REGISTRY-}grpcplaygroundagent
+    build:
+      context: .
+      dockerfile: gRPCplayground.Agent/Dockerfile
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

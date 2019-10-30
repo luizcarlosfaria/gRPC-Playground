@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPCplayground.Agent";
+
+package DockerAgent;
+
+service Services {
+  
+  rpc GetContainers (GetContainersRequest) returns (GetContainersResponse);
+
+  rpc GetLogStream (GetLogStreamRequest) returns (stream GetLogStreamResponse);
+  
+}
+
+message GetContainersRequest {
+  string name = 1;
+  bool showStopped = 2;
+}
+
+message GetContainersResponse {
+  message ContainerInfo {
+    string id = 1 ;
+    string name = 2 ;
+    string status = 3 ;
+    string state = 4;
+    string image = 5;
+  }
+  repeated ContainerInfo results = 1;
+}
+
+message GetLogStreamRequest {
+  string containerId = 1;
+}
+
+message GetLogStreamResponse {
+  string text = 1;
+}

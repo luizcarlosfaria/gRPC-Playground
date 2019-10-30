@@ -8,3 +8,9 @@
 /DotNet/gRPCHost/obj
 /DotNet/gRPCHost/bin
 Node/node_modules/
+gRPCplaygroundDockerManager/bin/
+gRPCplaygroundDockerManager/obj/
+gRPCplaygroundDockerManager/gRPCplayground.Agent/bin/
+gRPCplaygroundDockerManager/gRPCplayground.Agent/obj/
+*.user
+gRPCplaygroundDockerManager/.vs/

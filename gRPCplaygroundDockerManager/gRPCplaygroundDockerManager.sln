@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCplayground.Agent", "gRPCplayground.Agent\gRPCplayground.Agent.csproj", "{B249A056-C23E-409B-A86C-AC5A50F69525}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A27CA3DF-5786-438D-BCD8-AAD33A7F6B83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B249A056-C23E-409B-A86C-AC5A50F69525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B249A056-C23E-409B-A86C-AC5A50F69525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B249A056-C23E-409B-A86C-AC5A50F69525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B249A056-C23E-409B-A86C-AC5A50F69525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27CA3DF-5786-438D-BCD8-AAD33A7F6B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27CA3DF-5786-438D-BCD8-AAD33A7F6B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27CA3DF-5786-438D-BCD8-AAD33A7F6B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27CA3DF-5786-438D-BCD8-AAD33A7F6B83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23E1DC48-9012-406B-9111-8377D2A5444C}
+	EndGlobalSection
+EndGlobal
