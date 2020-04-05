@@ -27,6 +27,6 @@
     "google-protobuf": "^3.8.0",
     "grpc": "^1.21.1",
     "lodash": "^4.17.13",
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.3"
   }
 }
